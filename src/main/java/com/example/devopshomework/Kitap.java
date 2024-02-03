@@ -1,9 +1,9 @@
-package com.example;
+package com.example.devopshomework;
 
 public class Kitap {
-    private String ad;
-    private String yazar;
-    private int yil;
+    private final String ad;
+    private final String yazar;
+    private final int yil;
 
     public Kitap(String ad, String yazar, int yil) {
         this.ad = ad;
